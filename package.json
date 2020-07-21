@@ -3,10 +3,10 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "hexo generate",
+    "build": "node sammy.js; hexo generate",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
-    "server": "hexo server"
+    "start": "node sammy.js; hexo server -p ${PORT:-8080} -s"
   },
   "hexo": {
     "version": "4.2.1"
