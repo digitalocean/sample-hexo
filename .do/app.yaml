@@ -1,0 +1,9 @@
+name: sample-hexo
+static_sites:
+- build_command: yarn build
+  environment_slug: hexo
+  github:
+    branch: master
+    deploy_on_push: true
+    repo: digitalocean/sample-hexo
+  name: sample-hexo
