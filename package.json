@@ -21,5 +21,8 @@
     "hexo-renderer-stylus": "^1.1.0",
     "hexo-renderer-marked": "^2.0.0",
     "hexo-server": "^1.0.0"
+  },
+  "engines": {
+	"node": "21.x"
   }
 }
